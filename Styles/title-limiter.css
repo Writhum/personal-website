@@ -1,0 +1,18 @@
+@media (max-width: 1541px) {
+  .geoffrey-title.stopped {
+    left: 452.6px; /* Change position as per requirement */
+  }
+}
+
+
+@media (max-width: 1541px) {
+  .ashton-title.stopped {
+    left: 664.8px; /* Change position as per requirement */
+  }
+}
+
+@media (max-width: 1541px) {
+  .bio-container.stopped {
+    left: 620.8px; /* Change position as per requirement */
+  }
+}

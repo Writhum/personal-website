@@ -1,0 +1,25 @@
+@font-face {
+  font-family: 'myFont';
+  src: url(Fonts/Buck.ttf);
+  font-size: medium;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 3000px;
+  background-color: rgb(40, 80, 58);
+  z-index: 0;
+}
+
+.b-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-width: 1440px;
+  height: 953px;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+}

@@ -1,0 +1,56 @@
+.projects-title-bar {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 953px;
+  width: 100%;
+  height: 113px;
+  font-size: 48px;
+  font-family: myFont;
+  background-color: rgb(242, 180, 159);
+}
+
+.project-box-container{
+  position: absolute;
+  top: 1085px;
+  left: 25px;
+  right: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  row-gap: 50px;
+  column-gap: 50px;
+}
+
+.project-box {
+  height: 430px;
+  width: 370px;
+  background-color: rgb(242, 180, 159);
+}
+
+.project-box-images {
+  position: relative;
+  top: 5px;
+  left: 5px;
+  height: 360px;
+  width: 360px;
+}
+
+.project-box-title {
+  display: flex;
+  width: 1fr;
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+  font-family: myFont;
+  font-size: 35px;
+  text-shadow: 0 4px 4px rgb(0, 0, 0, 0.5);
+  margin-top: 5px;
+}
+
+.project-link {
+  text-decoration: none;
+  color: black;
+}
+
