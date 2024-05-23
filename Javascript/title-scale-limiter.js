@@ -17,11 +17,3 @@ window.addEventListener('resize', function() {
   }
 });
 
-window.addEventListener('resize', function() {
-  var slidingElement = document.getElementById('bio-container');
-  if (window.innerWidth <= 1490) {
-    slidingElement.classList.add('stopped');
-  } else {
-    slidingElement.classList.remove('stopped');
-  }
-});
