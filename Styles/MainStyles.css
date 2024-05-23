@@ -23,3 +23,10 @@ body, html {
   background-position: center;
   z-index: 1;
 }
+
+
+@media (max-width: 1541px) {
+  .b-image {
+    min-width: 100%;
+  }
+}
