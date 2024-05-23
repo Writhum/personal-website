@@ -11,8 +11,15 @@
   }
 }
 
-@media (max-width: 1541px) {
-  .bio-container.stopped {
-    left: 620.8px; /* Change position as per requirement */
+@media (max-width: 1250px) {
+  .geoffrey-title.stopped {
+    left: 25%;
+  }
+}
+
+
+@media (max-width: 1250px) {
+  .ashton-title.stopped {
+    left: 50%;
   }
 }
