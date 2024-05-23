@@ -115,3 +115,38 @@
   text-decoration: none;
   color: black;
 }
+
+
+@media (max-width: 1541px) {
+  .bio-container {
+    left: 620.8px; /* Change position as per requirement */
+  }
+  .bio-text {
+    font-size: 24px;
+  }
+  .bio-container {
+    width: 350px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .bottom-row-contact-info-bar {
+    top: 3387px;
+  }
+  .about-me-title-bar {
+    top: 2544px;
+  }
+  .portrait-bio-container {
+    top: 2806px;
+    justify-content: left;
+  }
+  .circle-frame {
+    margin-left: 55px;
+  }
+  .second-name-title {
+    left: 75px;
+  }
+  .bio-container {
+    left: 520.8px; /* Change position as per requirement */
+  }
+}
