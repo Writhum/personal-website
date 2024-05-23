@@ -23,6 +23,15 @@
   column-gap: 50px;
 }
 
+@media (max-width: 1250px) {
+  .project-box-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  body {
+    height: 3500px;
+  }
+}
+
 .project-box {
   height: 430px;
   width: 370px;
