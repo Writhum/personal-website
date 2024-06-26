@@ -1,0 +1,14 @@
+.rules-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.rules, .point-list {
+  border: solid;
+  border-color: black;
+  padding: 10px;
+  width: 450px;
+}

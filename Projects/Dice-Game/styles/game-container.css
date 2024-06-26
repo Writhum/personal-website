@@ -1,0 +1,14 @@
+.game-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.computer-player {
+  width: 250px
+}
+
+.player-title, .computer-title {
+  text-decoration: underline;
+}

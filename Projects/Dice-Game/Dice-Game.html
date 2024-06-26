@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dice Game</title>
+    <link rel="stylesheet" href="styles/game-container.css">
+    <link rel="stylesheet" href="styles/dice.css">
+    <link rel="stylesheet" href="styles/body.css">
+    <link rel="stylesheet" href="styles/rules-container.css">
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <div class="game-title">Dice Game</div>     
+  
+
+    <div class="turn-container">
+      <h2 class="your-turn turn">Your turn, roll the dice!</h2>
+      <h2 class="computer-turn turn"></h2>
+      <h2 class="computer-js-winDisplay"></h2>
+      <h2 class="js-winDisplay"></h2>
+      <h2 class="rolled"> </h2>
+
+    </div>
+
+    <div class="game-container">
+      <div class="player">
+        <h1 class="player-title">Player</h1>
+
+        <div>
+          <button class="dice-roller">Roll Dice</button>
+        </div>
+
+        <button class="dice js-die1">0</button>
+        <button class="dice js-die2">0</button>
+        <button class="dice js-die3">0</button>
+        <button class="dice js-die4">0</button>
+        <button class="dice js-die5">0</button>
+        <button class="dice js-die6">0</button>
+        
+        <div>
+        <button class="next-round">Next Round</button>
+        </div>
+    
+        <h2 class="round-score-display">Round Score: 0pts</h2>
+        <h2 class="total-score-display">Total Score: 0pts</h2>
+      </div>
+
+      <div class="computer-player">
+        <h1 class="computer-title">Computer</h1>
+        <h2 class="calculate">Best of luck!</h2>
+        <h2 class="computer-round-score-display">Round Score: 0pts</h2>
+        <h2 class="computer-total-score-display">Total Score: 0pts</h2>
+      </div>
+    </div>
+
+    <h2 class="point-goal-display">Goal: 2000pts</h2>
+
+    <div class="rules-container">
+      <div class="rules">
+        <b>Rules</b><br>
+        <ol>
+          <li>Roll Dice</li>
+          <br>
+          <li>Select Scoring Die to increase Round Score points</li>
+          <br>
+          <li>Select Next Round to add Round Points to Total Points and pass turn to computer</li>
+          <br>
+          <li>First player to reach a Total Score of 2000 points is the winner</li>
+        </ol>
+      </div>
+      <div class="point-list">
+        <b>Scoring Die</b>
+        <ul>
+          <li>5 = 50 pts</li>
+          <li>1 = 100 pts</li>
+        </ul>
+        <b>Combos</b><br>
+        Each added number after 3 of a kind will double the score multiplier
+        <ul>
+          <li>1 1 1 = 1000 pts</li>
+          <li>2 2 2 = 200 pts</li>
+          <li>3 3 3 = 300 pts</li>
+          <li>4 4 4 = 400 pts</li>
+          <li>5 5 5 = 500 pts</li>
+          <li>6 6 6 = 600 pts</li>
+        </ul>
+      </div>
+    </div>
+
+
+
+    <script src="scripts/util/dice-roller.js"></script>
+    <script src="scripts/data/die-logger.js"></script>
+    <script src="scripts/data/round-score.js"></script>
+    <script src="scripts/computer-player/computerPlayer.js"></script>
+    <script src="scripts/data/total-score.js"></script>
+
+  </body>
+</html>
